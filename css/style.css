@@ -52,7 +52,7 @@ header a{
     transition: transform 0.5s ease-in;
 }
 
-/* ----------------First Container------------- */
+/* ----------------First Container Start------------- */
 
 .first-container{
     display: grid;
@@ -75,32 +75,8 @@ header a{
     height: 245px;
 }
 
-/* ---------------Footer Start----------- */
 
-
-
-footer img{
-    width: 20%;
-    padding: 5% 0 0 41%;
-}
-footer p{
-    padding-left: 45%;
-    padding-bottom: 5%;
-    font-size: 15px;
-    font-weight: 600;
-}
-footer .social-icons{
-    padding: 0.2% 0 0.5% 46%;
-}
-.fab, .social-icon{
-    background-color: rgba(128, 128, 128, 0.533);
-    color: rgba(0, 0, 0, 0.400);
-    margin-right: 5px;
-    padding: 5px;
-    border-radius: 25px;
-}
-
-/* --------------Second Section------------- */
+/* --------------Second Section Start------------- */
 
 .second-container{
     background-color: #192841;
@@ -153,17 +129,41 @@ td{
     transition: padding 0.3s;
 }
 
-/* ---------------media query----------- */
+
+/* ---------------Footer Start----------- */
+
+
+
+footer img{
+    width: 20%;
+    padding: 5% 0 0 41%;
+}
+footer p{
+    padding-left: 45%;
+    padding-bottom: 5%;
+    font-size: 15px;
+    font-weight: 600;
+}
+footer .social-icons{
+    padding: 0.2% 0 0.5% 46%;
+}
+.fab, .social-icon{
+    background-color: rgba(128, 128, 128, 0.533);
+    color: rgba(0, 0, 0, 0.400);
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+
+/* ---------------media query for MOBILE----------- */
 
 @media only screen and (max-width:688px) {
 
 /* -----------------header------------------ */
 
-body{
-    /* width: 100%; */
-    margin-right: auto;
-}
  header{
+     width: 100%;
      padding-top: 5px;
     display: flex;
     align-items: center;
@@ -199,19 +199,21 @@ body{
 
     /* ---------------second container-------------- */
     .second-container{
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
 
     }
     table{
         height: 200px;
         width: 300px;
+        margin-left: 40px;
     }
     .about-fifa{
         width: 300px;
-        padding-left: 60px;
+        padding-left: 40px;
     }
     .second-container img{
-        padding-left: 60px;
+        padding-left: 40px;
     }
 
 
