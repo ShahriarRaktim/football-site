@@ -34,6 +34,10 @@ header a{
     height: 440px;
     margin-right: 300px;
 }
+.header-half img:hover{
+    transform: rotateZ(30deg);
+    transition: transform 0.5s;
+}
 .hover-effect{
     background-color: rgba(56, 35, 32, 0.863);
     margin-right: 75%;
@@ -73,6 +77,8 @@ header a{
 
 /* ---------------Footer Start----------- */
 
+
+
 footer img{
     width: 20%;
     padding: 5% 0 0 41%;
@@ -92,4 +98,57 @@ footer .social-icons{
     margin-right: 5px;
     padding: 5px;
     border-radius: 25px;
+}
+
+/* --------------Second Section------------- */
+
+.second-container{
+    background-color: #192841;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+table{
+    background-color: #7a8e9b;
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 40px rgba(182, 178, 178, 0.692);
+}
+caption{
+    color: lightgrey;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 900;
+}
+th{
+    font-size: 1.2em;
+    padding-left: 20px;
+ } 
+td{
+     padding-left: 40px;
+ }
+ .second-container img{
+     width: 300px;
+     height: 700px;
+     height: 100%; 
+     padding-left: 400px;  
+}
+.about-fifa{
+    padding-left: 200px;
+    color: rgba(211, 211, 211, 0.801);
+}
+.about-fifa a{
+    text-decoration: none;
+    color: lightsteelblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562),rgba(46, 46, 46, 0.774));
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.about-fifa a:hover{
+    color: red;
+    box-shadow: 2px 2px 10px red;
+    padding: 10px 20px;
+    transition: padding 0.3s;
 }
