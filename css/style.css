@@ -193,7 +193,21 @@ td{
     }
 
     /* ---------------second container-------------- */
-   
+    .second-container{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    table{
+        height: 200px;
+        width: 200px;
+    }
+    .about-fifa{
+        width: 250px;
+        padding-left: 60px;
+    }
+    .second-container img{
+        padding-left: 60px;
+    }
 
 
     /* -----------footer----------- */
