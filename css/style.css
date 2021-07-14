@@ -152,3 +152,62 @@ td{
     padding: 10px 20px;
     transition: padding 0.3s;
 }
+
+/* ---------------media query----------- */
+
+@media only screen and (max-width:688px) {
+
+/* -----------------header------------------ */
+ header{
+     padding-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+ }
+ .header-text h1{
+    font-size: 30px;
+ }
+ .header-half img{
+     width: 320px;
+     height: 270px;
+     padding-left: 80px;
+ }
+ .hover-effect{
+     margin: 5% 43% 10% 0;
+     padding: 5px;
+ }
+
+
+   /* ------------first container---------- */
+    .first-container{
+        width: 100%;
+      grid-template-columns: repeat(1, 1fr);
+      padding: 0;
+    }
+    .player{
+        padding: 15px 15px 15px 15px ;
+        margin-left: 20px;
+        margin-right: 55px;
+    }
+
+    /* ---------------second container-------------- */
+   
+
+
+    /* -----------footer----------- */
+
+    footer img{
+        width: 60%;
+        padding-left: 15%;
+    }
+    footer .social-icons{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    footer p{
+        padding-left: 25%;
+    }
+    }
