@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 
-/* -------Header start-------- */
+/* -------Header Start-------- */
 header{
     background-color: #2D25A0;
     display: flex;
@@ -48,7 +48,7 @@ header a{
     transition: transform 0.5s ease-in;
 }
 
-/* ----------------1ST Container------------- */
+/* ----------------First Container------------- */
 
 .first-container{
     display: grid;
@@ -69,4 +69,27 @@ header a{
 .player img{
     width: 300px;
     height: 245px;
+}
+
+/* ---------------Footer Start----------- */
+
+footer img{
+    width: 20%;
+    padding: 5% 0 0 41%;
+}
+footer p{
+    padding-left: 45%;
+    padding-bottom: 5%;
+    font-size: 15px;
+    font-weight: 600;
+}
+footer .social-icons{
+    padding: 0.2% 0 0.5% 46%;
+}
+.fab, .social-icon{
+    background-color: rgba(128, 128, 128, 0.533);
+    color: rgba(0, 0, 0, 0.400);
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 25px;
 }
